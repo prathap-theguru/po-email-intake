@@ -1,0 +1,8 @@
+{
+  "decision": "REVIEW",
+  "issue_codes": [
+    "LINE_FIELD_MISSING",
+    "TOTAL_NOT_STATED"
+  ],
+  "note": "The missing field is the unit price; with no prices there is no total to state."
+}

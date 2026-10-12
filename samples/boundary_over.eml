@@ -1,0 +1,9 @@
+From: Test Requester <you@example.com>
+To: po-intake@example.com
+Subject: Server rack
+Date: Sat, 10 Oct 2026 09:04:00 -0400
+Message-ID: <boundary_over@samples.po-intake.test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Please order 1 server rack from Northwind Office Products at $1000.01. Ship to Building 2 lobby, needed by 2026-11-10, cost center CC-5120. Total $1000.01.

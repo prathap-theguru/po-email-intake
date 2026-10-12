@@ -1,0 +1,29 @@
+[project]
+name = "po-intake"
+version = "0.1.0"
+description = "Learning build: Gmail purchase-request emails to PO CSV files with Claude and LangGraph"
+requires-python = ">=3.12"
+# Exact pins (spec section 2, version note). Check these versions' docs before using an API.
+dependencies = [
+    "langchain-anthropic==1.7.5",
+    "langgraph==1.2.14",
+    "pydantic==2.14.0",
+    "python-dotenv==1.2.4",
+    "pyyaml==6.0.3",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.16,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest==9.1.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "model: calls the Anthropic API; run on demand with `pytest -m model`",
+]
+addopts = "-m 'not model'"

@@ -1,0 +1,31 @@
+# All tunable values live here (spec section 3). Nothing below may be hardcoded in the code.
+# Secrets are NOT stored here. They are environment variables, loaded from .env (see .env.example):
+#   ANTHROPIC_API_KEY, GMAIL_ADDRESS, GMAIL_APP_PASSWORD
+
+gmail:
+  host: imap.gmail.com
+  port: 993
+  folder: INBOX
+  max_emails_per_run: 10
+
+paths:
+  approved_senders_csv: ./ref/approved_senders.csv
+  vendors_csv: ./ref/vendors.csv
+  ready_dir: ./out/ready
+  review_dir: ./out/review
+
+business:
+  approval_threshold: "1000.00"     # string, parsed to Decimal
+  buyer_id: B-0001                  # hardcoded for now
+  timezone: America/New_York
+
+model:
+  name: claude-sonnet-5-5
+  # No temperature: claude-sonnet-5-5 rejects non-default sampling values.
+  max_tokens: 2048
+  thinking: between_tools           # thinking off; use "adaptive" to turn it on
+
+limits:
+  max_tool_iterations: 3
+  recursion_limit: 25
+  max_body_chars: 20000             # longer bodies go to review, never truncated

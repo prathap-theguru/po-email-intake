@@ -1,0 +1,9 @@
+From: Test Requester <you@example.com>
+To: po-intake@example.com
+Subject: Chairs
+Date: Sat, 10 Oct 2026 09:03:00 -0400
+Message-ID: <boundary_1000@samples.po-intake.test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Please order 8 chairs from Northwind Office Products at $125 each. Ship to Building 2 lobby, needed by 2026-11-10, cost center CC-5120. Total $1000.00.

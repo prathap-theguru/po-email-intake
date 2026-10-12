@@ -1,0 +1,17 @@
+# Python / uv
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Generated PO files (they contain email content)
+out/
+
+# Secrets: never commit these
+.env
+
+# Spec document stays local
+*.docx
+
+# macOS folder files
+.DS_Store

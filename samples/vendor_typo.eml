@@ -1,0 +1,9 @@
+From: Test Requester <you@example.com>
+To: po-intake@example.com
+Subject: Toner
+Date: Sat, 10 Oct 2026 09:05:00 -0400
+Message-ID: <vendor_typo@samples.po-intake.test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+
+Need 10 toner cartridges from Acme Suply at $85 each, ship to Building 3 dock, needed by 2026-10-30, cost center CC-4410. Total $850.00.

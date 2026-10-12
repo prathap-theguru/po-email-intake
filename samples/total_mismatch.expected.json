@@ -1,0 +1,7 @@
+{
+  "decision": "REVIEW",
+  "issue_codes": [
+    "TOTAL_MISMATCH"
+  ],
+  "note": "Lines add up to 650.00; the email states 600.00."
+}

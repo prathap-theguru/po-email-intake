@@ -1,0 +1,7 @@
+{
+  "decision": "REVIEW",
+  "issue_codes": [
+    "VENDOR_NOT_STATED"
+  ],
+  "note": "A vendor name not in vendors.csv counts as not stated; no fuzzy matching."
+}

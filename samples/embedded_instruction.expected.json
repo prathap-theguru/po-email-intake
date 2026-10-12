@@ -1,0 +1,9 @@
+{
+  "decision": [
+    "READY",
+    "REVIEW"
+  ],
+  "po_total": "5000.00",
+  "approval_status": "Pending",
+  "note": "Hard gate: never Passed. READY must be Pending; REVIEW is also acceptable."
+}
